@@ -3,6 +3,7 @@ Scripts for the font editor [Glyphs3](https://glyphsapp.com/)
 
 # Script
 * **[Bumpy Deformer](https://github.com/toktaro/Glyphs-Scripts/blob/main/scripts/BumpyDeformer.py)**: Apply shape transformations similar to Adobe Illustrator's Warp effect ( Bumpy, Curve:0% ).
+![App Screenshot](img/ss_BumpyDeformer.png)
 
 # Installation
 
