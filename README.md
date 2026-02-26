@@ -9,6 +9,8 @@ Scripts for the font editor [Glyphs3](https://glyphsapp.com/)
 
 * **[Fit Metrics to SB Anchors](https://github.com/toktaro/Glyphs-Scripts/blob/main/scripts/FitMetricstoSBAnchors.py)**: This script automatically sets a glyph's width and height based on the positions of SB anchors. It is particularly useful for designing custom anchor-based proportional metrics in CJK fonts. Additionally, it includes a function to check for the presence of SB anchor pairs, allowing you to verify them before execution.
 
+* **[Check & Fix GDEF Table](https://github.com/toktaro/Glyphs-Scripts/blob/main/scripts/CheckandFixGDEFTable.py)**: This script checks the GDEF table version of exported OTF/TTF fonts and automatically fixes incorrect 0.0 versions to the appropriate version (1.0, 1.2, or 1.3) based on the font's internal data. Additionally, it provides a GUI to verify the current GDEF version before execution and safely saves the corrected font into a new folder without overwriting the original file. Note: This script requires the vanilla and fonttools modules.
+
 
 # Installation
 
@@ -16,7 +18,7 @@ Scripts for the font editor [Glyphs3](https://glyphsapp.com/)
 
 1. In Glyphs 3, go to **Window → Plugin Manager**.
 2. Open the **Python Modules** tab.
-3. Click **Install** for: **Python** , **Vanilla**
+3. Click **Install** for: **Python** , **Vanilla** (**FontTools**)
 
 ## 2. Download the Script
 
